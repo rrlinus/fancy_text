@@ -1,0 +1,22 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333333;
+    line-height: 100vh;
+    text-align: center;
+    color: aliceblue;
+}
+span{
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: inline-block;
+    transform: translateY(50px);
+}
+span.fade{
+    opacity: 1;
+    color: brown;
+    transform: translateY(0px);
+}
